@@ -1,0 +1,8 @@
+start/Client/bin/
+start/Client/obj/
+start/GrainInterfaces/bin/
+start/GrainInterfaces/obj/
+start/Grains/bin/
+start/Grains/obj/
+start/Silo/bin/
+start/Silo/obj/
