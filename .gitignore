@@ -6,3 +6,5 @@ start/Grains/bin/
 start/Grains/obj/
 start/Silo/bin/
 start/Silo/obj/
+start/.vs/
+start/NGrains/obj/
