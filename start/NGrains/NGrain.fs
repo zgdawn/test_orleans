@@ -1,4 +1,4 @@
-namespace NGrains
+namespace OrleansBasic
 
 open OrleansBasic;
 open Orleans;
@@ -10,7 +10,7 @@ module Say =
     let hello name =
         printfn "Hello %s" name
 
-    type NGrain =
+    type HelloGrain =
         inherit Grain
         interface IHello with
             member this.SayHello(greeting) = 
@@ -21,6 +21,6 @@ module Say =
                 let res = client greeting
                 Task.FromResult(res)
 
-        val logger : ILogger<NGrain>
+        val logger : ILogger<HelloGrain>
 
         new(log) = { logger = log}
